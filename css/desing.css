@@ -30,9 +30,9 @@ header{
     left: 0px;
     width: 100%;
     height: 399px;
-/*UI Properties*/
-    background: var(--bg) 0% 0% no-repeat padding-box;
-    border: 1px solid var(--bg);
+    /*UI Properties*/
+    background-image: linear-gradient(-175.8deg, var(--bg) 80%, var(--white) 80%);
+    border: 1px var(--bg);
     opacity: 1;
 }
 
@@ -102,10 +102,15 @@ header nav{
     margin-right: 25px;
 }
 
+nav#conteiner{
+    position: relative;
+    top: -150px;
+}
+
 nav h4.art{
     position: relative;
-    top: 420px;
-    left: 290px;
+    top: 250px;
+    left: 110px;
     width: 332px;
     height: 23px;
     text-align: left;
@@ -116,8 +121,9 @@ nav h4.art{
 }
 
 nav article{
-    top: 473px;
-    left: 290px;
+    position: relative;
+    top: 273px;
+    left: 90px;
     width: 520px;
     height: 220px;
     text-align: left;
@@ -127,30 +133,32 @@ nav article{
     opacity: 1;
 }
 
+nav article p{
+    margin: 15px;
+}
+
 form.formulario{
     position: relative;
-    top: 420px;
-    left: 870px;
+    top: 20px;
+    left: 710px;
     width: 340px;
     height: 227px;
     opacity: 1;
 }
 
-input.formulario{
+form input.text{
     position: relative;
-    top: 441px;
-    left: 870px;
-    width: 340px;
+    top: 0px;
+    left: 0px;
+    width: 370px;
     height: 30px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    border: 1px solid #707070;
-    opacity: 1;
+    margin-bottom: 17px;
 }
 
 button.for{
     position: relative;
-    top: 415px;
-    left: 870px;
+    top: 55px;
+    left: 720px;
     width: 340px;
     height: 39px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -160,8 +168,9 @@ button.for{
 }
 
 body p.meio{
-    top: 788px;
-    left: 666px;
+    position: relative;
+    top: 88px;
+    left: 506px;
     width: 181px;
     height: 22px;
     text-align: left;
@@ -173,8 +182,8 @@ body p.meio{
 
 nav div.num1{
     position: relative;
-    top: 860px;
-    left: 286px;
+    top: -565px;
+    left: -180px;
     width: 200px;
     height: 150px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -183,8 +192,8 @@ nav div.num1{
 }
 nav div.num2{
     position: relative;
-    top: 860px;
-    left: 527px;
+    top: -1235px;
+    left: 60px;
     width: 200px;
     height: 150px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -193,8 +202,8 @@ nav div.num2{
 }
 nav div.num3{
     position: relative;
-    top: 860px;
-    left: 768px;
+    top: -1770px;
+    left: 300px;
     width: 200px;
     height: 150px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -203,13 +212,27 @@ nav div.num3{
 }
 nav div.num4{
     position: relative;
-    top: 860px;
-    left: 1009px;
+    top: -2305px;
+    left: 550px;
     width: 200px;
     height: 150px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     opacity: 1;
+}
+nav h4#n1{
+    position: relative;
+    top: -550px;
+    left: -180px;
+    width: 200px;
+    height: 150px;
+}
+nav h4#n2{
+    position: relative;
+    top: -550px;
+    left: -180px;
+    width: 200px;
+    height: 150px;
 }
 nav div.num5{
     top: 1249px;
@@ -261,16 +284,16 @@ body nav.compras{
 }
 nav div.base1{
     position: relative;
-    top: 860px;
-    left: 285px;
+    top: -500px;
+    left: -245px;
     width: 201px;
     height: 350px;
     opacity: 1;
 }
 nav div.base2{
     position: relative;
-    top: 860px;
-    left: 526px;
+    top: -1000px;
+    left: -10px;
     width: 201px;
     height: 350px;
     opacity: 1;
