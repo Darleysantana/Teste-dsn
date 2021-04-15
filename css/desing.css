@@ -182,7 +182,7 @@ body p.meio{
 
 nav div.num1{
     position: relative;
-    top: -565px;
+    top: -524px;
     left: -180px;
     width: 200px;
     height: 150px;
@@ -202,7 +202,7 @@ nav div.num2{
 }
 nav div.num3{
     position: relative;
-    top: -1770px;
+    top: -1945px;
     left: 300px;
     width: 200px;
     height: 150px;
@@ -212,7 +212,7 @@ nav div.num3{
 }
 nav div.num4{
     position: relative;
-    top: -2305px;
+    top: -2655px;
     left: 550px;
     width: 200px;
     height: 150px;
@@ -222,17 +222,79 @@ nav div.num4{
 }
 nav h4#n1{
     position: relative;
-    top: -550px;
+    top: -525px;
     left: -180px;
     width: 200px;
     height: 150px;
 }
 nav h4#n2{
     position: relative;
-    top: -550px;
-    left: -180px;
+    top: -1235px;
+    left: 60px;
     width: 200px;
     height: 150px;
+}
+nav h4#n3{
+    position: relative;
+    top: -1945px;
+    left: 300px;
+    width: 200px;
+    height: 150px;
+}
+nav h4#n4{
+    position: relative;
+    top: -2655px;
+    left: 550px;
+    width: 200px;
+    height: 150px;
+}
+p#d1{
+    position: relative;
+    top: -650px;
+    left: -180px;
+    width: 200px;
+    height: 60px;
+    text-align: left;
+    font: normal normal normal 12px/16px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #888888;
+    opacity: 1;
+}
+p#d2{
+    position: relative;
+    top: -1360px;
+    left: 60px;
+    width: 200px;
+    height: 60px;
+    text-align: left;
+    font: normal normal normal 12px/16px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #888888;
+    opacity: 1;
+}
+p#d3{
+    position: relative;
+    top: -2070px;
+    left: 300px;
+    width: 200px;
+    height: 60px;
+    text-align: left;
+    font: normal normal normal 12px/16px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #888888;
+    opacity: 1;
+}
+p#d4{
+    position: relative;
+    top: -2780px;
+    left: 550px;
+    width: 200px;
+    height: 60px;
+    text-align: left;
+    font: normal normal normal 12px/16px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #888888;
+    opacity: 1;
 }
 nav div.num5{
     top: 1249px;
@@ -284,7 +346,7 @@ body nav.compras{
 }
 nav div.base1{
     position: relative;
-    top: -500px;
+    top: -100px;
     left: -245px;
     width: 201px;
     height: 350px;
