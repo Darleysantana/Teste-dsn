@@ -4,6 +4,13 @@
     --botao: black;
 }
 
+@media only screen and (max-device-width: 900px) {
+     .menu { width:100%; }
+}
+@media only screen and (max-device-width: 420px) {
+         .menu { width:400px; } 
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -18,7 +25,7 @@ body{
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 2444px;
+    height: 80%;
     background: var(--white) 0% 0% no-repeat padding-box;
     opacity: 1;
 }
@@ -296,9 +303,42 @@ p#d4{
     color: #888888;
     opacity: 1;
 }
+nav div.base1{
+    position: relative;
+    top: -650px;
+    left: -180px;
+    width: 201px;
+    height: 350px;
+    opacity: 1;
+}
+nav div.base2{
+    position: relative;
+    top: -1360px;
+    left: 60px;
+    width: 201px;
+    height: 350px;
+    opacity: 1;
+}
+nav div.base3{
+    position: relative;
+    top: -2070px;
+    left: 297px;
+    width: 201px;
+    height: 350px;
+    opacity: 1;
+}
+nav div.base4{
+    position: relative;
+    top: -2780px;
+    left: 555px;
+    width: 201px;
+    height: 350px;
+    opacity: 1;
+}
 nav div.num5{
-    top: 1249px;
-    left: 286px;
+    position: relative;
+    top: -2999px;
+    left: -186px;
     width: 200px;
     height: 150px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -307,8 +347,8 @@ nav div.num5{
 }
 nav div.num6{
     position: relative;
-    top: 1249px;
-    left: 527px;
+    top: -3710px;
+    left: 67px;
     width: 200px;
     height: 150px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -317,8 +357,8 @@ nav div.num6{
 }
 nav div.num7{
     position: relative;
-    top: 1249px;
-    left: 768px;
+    top: -4420px;
+    left: 308px;
     width: 200px;
     height: 150px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -327,8 +367,8 @@ nav div.num7{
 }
 nav div.num8{
     position: relative;
-    top: 1249px;
-    left: 1009px;
+    top: -5130px;
+    left: 559px;
     width: 200px;
     height: 150px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -344,67 +384,207 @@ body nav.compras{
     height: 740px;
     opacity: 1;
 }
-nav div.base1{
-    position: relative;
-    top: -100px;
-    left: -245px;
-    width: 201px;
-    height: 350px;
-    opacity: 1;
-}
-nav div.base2{
-    position: relative;
-    top: -1000px;
-    left: -10px;
-    width: 201px;
-    height: 350px;
-    opacity: 1;
-}
-nav div.base3{
-    position: relative;
-    top: 860px;
-    left: 767px;
-    width: 201px;
-    height: 350px;
-    opacity: 1;
-}
-nav div.base4{
-    position: relative;
-    top: 860px;
-    left: 1008px;
-    width: 201px;
-    height: 350px;
-    opacity: 1;
-}
 nav div.base5{
     position: relative;
-    top: 1249px;
-    left: 285px;
+    top: -3109px;
+    left: -180px;
     width: 201px;
     height: 350px;
+    opacity: 1;
+}
+nav h4#n5{
+    position: relative;
+    top: -2995px;
+    left: -180px;
+    width: 200px;
+    height: 150px;
+}
+p#d5{
+    position: relative;
+    top: -3115px;
+    left: -180px;
+    width: 200px;
+    height: 60px;
+    text-align: left;
+    font: normal normal normal 12px/16px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #888888;
     opacity: 1;
 }
 nav div.base6{
     position: relative;
-    top: 1249px;
-    left: 526px;
+    top: -3825px;
+    left: 66px;
     width: 201px;
     height: 350px;
+    opacity: 1;
+}
+nav h4#n6{
+    position: relative;
+    top: -3710px;
+    left: 70px;
+    width: 200px;
+    height: 150px;
+}
+p#d6{
+    position: relative;
+    top: -3825px;
+    left: 70px;
+    width: 200px;
+    height: 60px;
+    text-align: left;
+    font: normal normal normal 12px/16px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #888888;
     opacity: 1;
 }
 nav div.base7{
     position: relative;
-    top: 1249px;
-    left: 767px;
+    top: -4540px;
+    left: 310px;
     width: 201px;
     height: 350px;
     opacity: 1;
 }
+nav h4#n7{
+    position: relative;
+    top: -4420px;
+    left: 310px;
+    width: 200px;
+    height: 150px;
+}
+p#d7{
+    position: relative;
+    top: -4540px;
+    left: 310px;
+    width: 200px;
+    height: 60px;
+    text-align: left;
+    font: normal normal normal 12px/16px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #888888;
+    opacity: 1;
+}
 nav div.base8{
     position: relative;
-    top: 1249px;
-    left: 1008px;
+    top: -5249px;
+    left: 560px;
     width: 201px;
     height: 350px;
+    opacity: 1;
+}
+nav h4#n8{
+    position: relative;
+    top: -5129px;
+    left: 560px;
+    width: 200px;
+    height: 150px;
+}
+p#d8{
+    position: relative;
+    top: -5249px;
+    left: 560px;
+    width: 200px;
+    height: 60px;
+    text-align: left;
+    font: normal normal normal 12px/16px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #888888;
+    opacity: 1;
+}
+.btn-compra{
+    top: 1180px;
+    left: 1009px;
+    width: 200px;
+    height: 30px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    opacity: 1;
+}
+.ver-mais{
+    position: relative;
+    top: 451px;
+    left: 480px;
+    width: 260px;
+    height: 39px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    opacity: 1;
+}
+#divulgar{
+    position: relative;
+    top: 651px;
+    left: 520px;
+    width: 204px;
+    height: 22px;
+    text-align: left;
+    font: normal normal bold 18px/16px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #888888;
+    opacity: 1;
+}
+#text-form{
+    position: relative;
+    top: 750px;
+    left: 350px;
+    width: 534px;
+    height: 16px;
+    text-align: center;
+    font: normal normal normal 14px/16px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #888888;
+    opacity: 1;
+}
+form.form2{
+    position: relative;
+    top: 800px;
+    left: 300px;
+    width: 720px;
+    height: 51px;
+    opacity: 1;
+}
+input form.form2{
+    top: 1960px;
+    left: 390px;
+    width: 340px;
+    height: 30px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+label form.form2{
+    top: 1939px;
+    left: 390px;
+    width: 112px;
+    height: 14px;
+    text-align: left;
+    font: normal normal normal 12px/14px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #888888;
+    opacity: 1;
+}
+#convite{
+    position: relative;
+    top: 850px;
+    left: 450px;
+    width: 260px;
+    height: 39px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    opacity: 1;
+}
+.rodape{
+    position: relative;
+    top: 2308px;
+    left: 620px;
+    width: 260px;
+    height: 50px;
+    text-align: center;
+    font: normal normal normal 12px/18px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #FFFFFF;
     opacity: 1;
 }
