@@ -1,81 +1,86 @@
 :root{
     --bg: #707070;
     --white: #FFFFFF;
-    --botao: black;
+    --botao: #888888;
+    --page: #00000029;
 }
-
-@media only screen and (max-device-width: 900px) {
-     .menu { width:100%; }
-}
-@media only screen and (max-device-width: 420px) {
-         .menu { width:400px; } 
-}
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
-    font-family: sans-serif;
-    font-size: 15px;
 }
-
 body{
-    position: relative;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 80%;
     background: var(--white) 0% 0% no-repeat padding-box;
     opacity: 1;
 }
-
 header{
     /*Layout properties*/
-    position: relative;
-    top: 0px;
-    left: 0px;
     width: 100%;
     height: 399px;
     /*UI Properties*/
     background-image: linear-gradient(-175.8deg, var(--bg) 80%, var(--white) 80%);
     border: 1px var(--bg);
-    opacity: 1;
+    opacity: 1;  
 }
-
-header h3{
-    position: relative;
-    top: 69px;
-    left: 490px;
-    width: 270px;
-    height: 23px;
-    text-align: left;
-    font-family: normal normal normal 20px/24px Helvetica Neue;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    font-size: 20px;
-    opacity: 1;
+header .conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
 }
-
- header h1{
+header h1{
     position: relative;
-    top: 80px;
-    left: 430px;
-    width: 358px;
-    height: 48px;
+    margin-top: 7%;
+    width: 100%;
+    margin-bottom: 70px;
+    margin: 5px;
     text-align: center;
     font-family: normal normal bold 40px/49px Helvetica Neue;
-    letter-spacing: 0px;
     color: #FFFFFF;
-    opacity: 1;
     font-size: 40px;
- }
-
- header p{
+    top: -90px;
+    left: 350px;
+}
+header nav a{
+    padding: 10px;
+    width: 180px;
     position: relative;
-    top: 100px;
-    left: 310px;
-    width: 590px;
+    color: var(--botao);
+    background: var(--white) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 6px var(--page);
+    border: 1px solid var(--bg);
+    border-radius: 4px;
+    opacity: 1;
+    padding: 12px 27px;
+    margin-left: 20px;
+    text-align: center;
+    display: block;
+}
+header nav{ 
+    display: flex;
+    width: 100%;
+    position: relative;
+    top: 50px;
+    left: -350px;
+    opacity: 1;
+
+}
+header h3{
+    position: relative;
+    top: 85px;
+    left: 250px;
+    width: 50%;
+    letter-spacing: 0;
+    text-align: center;
+    font-family: normal normal normal 20px/24px Helvetica Neue;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+header p{
+    position: relative;
+    top: -250px;
+    left: 350px;
+    width: 40%;
     height: 16px;
     text-align: center;
     font-family: normal normal normal 14px/16px Helvetica Neue;
@@ -83,42 +88,16 @@ header h3{
     color: var(--white);
     opacity: 1;
     font-size: 14px;
- }
- 
-header nav{
-    top: 230px;
-    left: 371px;
-    width: 769px;
-    height: 50px;
-    opacity: 1;
 }
-
- header nav a{
-    position: relative;
-    top: 170px;
-    left: 250px;
-    width: 160px;
-    height: 40px;
-    color: black;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    box-shadow: 0px 1px 6px #00000029;
-    border: 1px solid #707070;
-    border-radius: 4px;
-    opacity: 1;
-    padding: 12px 27px;
-    margin-right: 25px;
-}
-
 nav#conteiner{
     position: relative;
     top: -150px;
 }
-
 nav h4.art{
     position: relative;
     top: 250px;
     left: 110px;
-    width: 332px;
+    width: 30%;
     height: 23px;
     text-align: left;
     font: normal normal normal 20px/24px Helvetica Neue;
@@ -126,12 +105,11 @@ nav h4.art{
     color: #888888;
     opacity: 1;
 }
-
 nav article{
     position: relative;
     top: 273px;
     left: 90px;
-    width: 520px;
+    width: 40%;
     height: 220px;
     text-align: left;
     font: normal normal normal 12px/18px Helvetica Neue;
@@ -139,20 +117,17 @@ nav article{
     color: #888888;
     opacity: 1;
 }
-
 nav article p{
     margin: 15px;
 }
-
 form.formulario{
     position: relative;
     top: 20px;
     left: 710px;
-    width: 340px;
+    width: 30%;
     height: 227px;
     opacity: 1;
 }
-
 form input.text{
     position: relative;
     top: 0px;
@@ -161,7 +136,6 @@ form input.text{
     height: 30px;
     margin-bottom: 17px;
 }
-
 button.for{
     position: relative;
     top: 55px;
@@ -173,7 +147,6 @@ button.for{
     border-radius: 4px;
     opacity: 1;
 }
-
 body p.meio{
     position: relative;
     top: 88px;
@@ -186,7 +159,6 @@ body p.meio{
     color: #888888;
     opacity: 1;
 }
-
 nav div.num1{
     position: relative;
     top: -524px;
@@ -375,7 +347,6 @@ nav div.num8{
     border: 1px solid #707070;
     opacity: 1;
 }
-
 body nav.compras{
     position: relative;
     top: 860px;
@@ -577,14 +548,24 @@ label form.form2{
     opacity: 1;
 }
 .rodape{
+     /*Layoutproperties*/
+     position: relative;
+     top: 900px;
+     width: 100%;
+     height: 399px;
+     text-align: center;
+     color: var(--white);
+     /*UIProperties*/
+     background-image: linear-gradient(50deg, var(--bg) 80%, var(--white) 50%);
+     border: 1px var(--bg);
+     opacity: 1;
+}
+footer h6{
     position: relative;
-    top: 2308px;
-    left: 620px;
-    width: 260px;
-    height: 50px;
     text-align: center;
-    font: normal normal normal 12px/18px Helvetica Neue;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
+    top: 50px;
+    left: 500px;
+    width: 16%;
+    font-size: 10px;
+    border: solid 1px violet;
 }
